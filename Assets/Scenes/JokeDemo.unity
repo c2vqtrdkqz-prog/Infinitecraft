@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component: []
+  m_Layer: 0
+  m_Name: JokeDemo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_Active: 1
+
+# This is a placeholder scene file. To create the example scene open Unity, create a new 2D Scene named "JokeDemo", then:
+# 1. Create a Canvas (GameObject -> UI -> Canvas).
+# 2. Inside the Canvas create a Button (UI -> Button) and rename it "FetchButton".
+# 3. Install TextMeshPro if prompted and create two Text - TextMeshPro objects named "SetupText" and "PunchlineText" and one small TextMeshPro object named "StatusText".
+# 4. Create an empty GameObject named "JokeManager" and attach the script Assets/Scripts/JokeManagerTMP.cs (or the existing Assets/Scripts/JokeManager.cs).
+# 5. Wire the Button to fetchButton and the TMP fields to their respective slots on the JokeManager component.
+# 6. Save the scene as Assets/Scenes/JokeDemo.unity.
