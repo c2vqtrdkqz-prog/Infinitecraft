@@ -1,22 +1,20 @@
-# Infinitecraft (Unity 2D) - Example
+# Infinitecraft (Unity 2D)
 
-This repository contains starter scaffolding for an Infinitecraft-style 2D project in Unity.
-
-Included in this commit:
-- Assets/Scripts/JokeManager.cs (legacy: supports Unity UI Text and TextMeshPro)
-- Assets/Scripts/JokeManagerTMP.cs (TextMeshPro-only convenience script)
-- Assets/Scenes/JokeDemo.unity (placeholder and setup instructions)
+This repository contains a Neal.fun–inspired Infinite Craft game built in Unity 2D.
 
 Quick start
-1. Open this project in Unity (2020.1+ recommended).
-2. Import TextMeshPro essentials if prompted.
-3. Open the scene: Assets/Scenes/JokeDemo.unity (or create it following the placeholder instructions).
-4. In the scene: select the JokeManager GameObject and wire the Button and TMP fields in the inspector.
-5. Play the scene and click the "Fetch" button to retrieve a joke from the Official Joke API.
+1. Clone the repo and open it in Unity 2021.3 LTS (recommended) or newer.
+2. Switch to the feature branch `feature/complete-infinitecraft`.
+3. Open the scene `Assets/Scenes/InfinitecraftDemo.unity`.
+4. If prompted, import TextMeshPro essentials.
+5. Press Play to run the demo. The UI is wired to the ElementCombiner systems.
 
-Notes
-- The provided scene file is a placeholder with step-by-step setup instructions. If you'd like, I can create a fully serialized .unity scene file wired to the script, but Unity will generally regenerate script GUID links when opened in the editor.
-- The JokeManager scripts use UnityWebRequest in a coroutine and display simple status messages.
+Files of interest
+- Assets/Scripts/ElementCombiner.cs — core game logic and persistence
+- Assets/Scripts/ElementCombinerDemoUI.cs — simple UI glue and selection flow
+- Assets/Scripts/DiscoveryGridUI.cs, ElementCellUI.cs — discovery grid cells
+- Assets/Scripts/SaveExportUtility.cs — export/import helpers
+- Assets/Scenes/InfinitecraftDemo.unity — demo scene (placeholder/wired)
 
 License
-- Add a LICENSE file to choose your preferred license (MIT recommended for starters).
+This project is provided under the MIT License. See LICENSE for details.

@@ -3,21 +3,19 @@
 Milestone 0 - Project setup
 - Repository scaffolding
 - Basic scene and UI
-- Player controller (2D) and camera follow
+- Player controller (2D) and camera follow (optional)
 
-Milestone 1 - Tile-based world
-- Implement chunked tilemap streaming (e.g., 16x16 chunks)
-- Procedural terrain using Perlin noise
-- Block placement and removal
+Milestone 1 - Tile-based discovery
+- Discovery grid (scrollable) with element cells
+- Combine flow and deterministic local generation
+- Persistence and share/export
 
-Milestone 2 - Gameplay
-- Inventory and hotbar
-- Basic crafting system (3 recipes)
-- Saving/loading player position and seed
+Milestone 2 - Polish
+- Animations, particle effects on discovery
+- Sounds and UI polish
+- WebGL build (optional)
 
-Milestone 3 - Polish
-- Optimization (async chunk generation)
-- Mobile/desktop input tuning
-- Additional biomes, items, and enemies
-
-If you want, I will also create a fully serialized example scene (with actual component GUIDs) and a packaged Unity project that opens with everything wired. Please confirm if you want that and whether to replace the placeholder scene with a fully serialized one.
+Milestone 3 - Extras
+- API creative generation (optional)
+- More content, recipes, and art
+- Mobile input tuning
